@@ -1,0 +1,51 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+.picture{ /*--- My picture ---*/
+    width: 150px;
+	height: 150px;
+	/*border: 1px solid #8fa0ad;*/
+	border-radius: 50%;
+    border: 1px solid;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(img/mypicture.jpg);
+    background-repeat: no-repeat;
+	background-size: contain;
+    z-index: 1;
+}
+.jumbotron{
+    background-image: url(img/amalfi3-2.jpg);
+    height: 400px;
+    background-position: 0% 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.jumbotron h1{
+     color: #fff;
+     font-weight: bold;
+     text-shadow: 2px 2px black;
+     margin: 0 auto;    
+}
+
+#myself{
+	background-color: #e9ecef;
+	border-radius: 10%;
+}
+
+.achievements p {
+	text-align: center;
+}
+.achievements h3{
+	text-align: center;
+}
+footer{
+    margin-top: 30%;
+    padding-bottom: 0.5%;
+	background-color: #e9ecef;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	
+}
