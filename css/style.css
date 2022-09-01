@@ -42,8 +42,29 @@ body{
 	text-align: center;
 }
 
+/*.skills{
+	border-top: 2px dashed black;
+	border-bottom: 2px dashed black;
+	padding-top: 15px;
+}*/
 .skills i {
 	margin-bottom: 1em;
+}
+
+#webdev{
+	filter: invert(23%) sepia(50%) saturate(7357%) hue-rotate(351deg) brightness(88%) contrast(110%);
+}
+#website{
+	filter: invert(73%) sepia(72%) saturate(449%) hue-rotate(13deg) brightness(96%) contrast(116%);
+}
+#hiking{
+	filter: invert(33%) sepia(71%) saturate(5507%) hue-rotate(24deg) brightness(97%) contrast(94%);
+}
+#nutrition{
+	filter: invert(49%) sepia(96%) saturate(0%) hue-rotate(237deg) brightness(94%) contrast(92%);
+}
+#travel{
+	filter: invert(23%) sepia(69%) saturate(3745%) hue-rotate(212deg) brightness(103%) contrast(108%);
 }
 
 footer{
