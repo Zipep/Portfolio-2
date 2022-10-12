@@ -1,29 +1,23 @@
 {
-  "name": "mywebsite",
+  "name": "portfolio-2",
   "version": "1.0.0",
-  "description": "Portfolio 2.0",
-  "main": "index.html",
+  "description": "My second portfolio",
+  "main": "index.js",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zipep/Portfolio-2.git"
   },
-  "author": "Giuseppe Andrea Savino",
+  "author": "Giuseppe A Savino",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zipep/Portfolio-2/issues"
   },
   "homepage": "https://github.com/Zipep/Portfolio-2#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "bootstrap4-toggle": "^3.6.1",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1"
   }
