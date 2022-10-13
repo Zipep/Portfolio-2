@@ -4,9 +4,9 @@ $yellow: #ffc107;
     background-color: #252525;
     color: white;    
 }
-
+$font-family-base: 'Montserrat', arial, sans-serif;
 body{
-    font-family: 'Courier New', Courier, monospace;
+	font-family: $font-family-base;	
 }
 
 .dark-mode {
@@ -20,13 +20,7 @@ body{
     }
     footer{
         @include dark;
-        border: 2px solid white;
-		
-        // margin-top: 30%;
-	    // padding-bottom: 0.5%;
-        // margin-left: 0.5%;
-        // margin-right: 0.5%;
-        
+        border: 2px solid white;        
     }
     .navbar-light .navbar-nav .nav-link{
         color: white;
@@ -187,7 +181,7 @@ input {
 	filter: invert(23%) sepia(69%) saturate(3745%) hue-rotate(212deg) brightness(103%) contrast(108%);
 }
 #hiking {
-    width: 36px;
+    width: 34px;
 	filter: invert(33%) sepia(71%) saturate(5507%) hue-rotate(24deg) brightness(97%) contrast(94%);
 }
 #tech{
@@ -206,9 +200,9 @@ footer {
      background-color: #e9ecef;
 	 border-top-right-radius: 30%;
 	 border-top-left-radius: 30%;
-   // prova ombre footer
-   	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(195,198,200,0.25); 
-	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(195,198,200,0.25); 
+     // footer shadows
+   	 -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(195,198,200,0.25); 
+	 box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 5px 0px rgba(195,198,200,0.25); 
 }
 #copyright{
     background-color: #8999a9;
@@ -216,7 +210,7 @@ footer {
 	border-top-left-radius: 30%;
 }
 
-// TEST ANIMAZIONE SPAN HELLO -------------------------------------------------------
+// hello animation
 
 $t: 1s;
 $d: 0.08em;
